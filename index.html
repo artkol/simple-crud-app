@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CRUD App</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+</head>
+
+<body>
+  <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+    <div class="container">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="https://bulma.io">CRUD App</a>
+      </div>
+    </div>
+  </nav>
+
+  <section class="section">
+    <div class="container">
+      <div class="card card-content">
+        <h1 class="title">Type something</h1>
+        <div class="field">
+          <div class="control">
+            <input class="input" id="post-title" type="text" placeholder="Post title">
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <textarea class="textarea" id="post-body" type="text" placeholder="Post body"></textarea>
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <input class="input" id="id" type="hidden">
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <button class="button is-primary is-fullwidth" id="post-submit">Post it</button>
+          </div>
+        </div>
+        <div class="field is-hidden" id="cancel-field">
+          <div class="control">
+            <button class="button is-warning is-fullwidth" id="cancel-btn">Cancel</button>
+          </div>
+        </div>
+        <p class="form-end"></p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container" id="display-posts"></div>
+  </section>
+
+  <script src="build/bundle.js"></script>
+</body>
+
+</html>
