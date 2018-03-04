@@ -4,9 +4,9 @@ Basic CRUD application
 
 ## Built with
 
-* [Vanilla JS](vanilla-js.com)
-* [JSON Server](https://jsonplaceholder.typicode.com/)
-* [Bulma](https://bulma.io/)
+* JavaScript
+* JSON Server
+* Bulma
 
 ## Installation and Running
 
